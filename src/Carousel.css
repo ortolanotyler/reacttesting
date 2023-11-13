@@ -1,0 +1,44 @@
+/* Carousel.css */
+.Carousel {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Carousel h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Carousel-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.Card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Card-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.Card-small {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
